@@ -1,0 +1,15 @@
+# User Story ID: US1.2
+
+## Title: Search for a Round-Trip Flight
+
+### Test Cases
+| ID  | Work Item Type | Title                                           | Test Step | Step Action                                                                 | Step Expected                                                                                     | Test Description                                                                                 | Prerequisites                  | Test Data                                                                 | Test Type       | Test Complexity | Automation Status | Priority | Assigned To |
+|------|----------------|-------------------------------------------------|-----------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------------|----------------------------------------------------------------------------|----------------|-----------------|-------------------|----------|-------------|
+| TC1  | Functional     | Validate 'From' field dropdown                 | Verify the 'From' field dropdown functionality. | Open the dropdown and check if it contains the cities: New York, London, Tokyo, Paris, Sydney, Mumbai, Delhi, Dubai, Singapore. | Dropdown should display the listed cities. | Validate the 'From' field dropdown functionality. | Application is accessible. | N/A | Positive | Low | Automatable | High | Unassigned |
+| TC2  | Functional     | Validate 'To' field dropdown                   | Verify the 'To' field dropdown functionality. | Open the dropdown and check if it contains the cities: New York, London, Tokyo, Paris, Sydney, Mumbai, Delhi, Dubai, Singapore. | Dropdown should display the listed cities. | Validate the 'To' field dropdown functionality. | Application is accessible. | N/A | Positive | Low | Automatable | High | Unassigned |
+
+### RTM
+| User Story ID | User Story Name           | Acceptance Criteria                                                                 | Test Case ID | Test Case Title                                    | Priority | Execution Status | Defect ID(s) | Remarks / Gaps |
+|---------------|---------------------------|-------------------------------------------------------------------------------------|--------------|--------------------------------------------------|----------|------------------|--------------|----------------|
+| US1.2         | Search for a Round-Trip Flight | AC1: From & To: Same rules as US1.1 (mandatory, not same, errors). | TC1          | Validate 'From' field dropdown           | High     | Not Executed     | -            | -              |
+| US1.2         |                           |                                                                                     | TC2          | Validate 'To' field dropdown | High     | Not Executed     | -            | -              |
