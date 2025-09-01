@@ -23,3 +23,31 @@ highlighted below fields. If valid → show results page.
 • Results: List of available departure flights with airline, flight number, cities, dates/times,
 duration, price (USD). Sorted by departure time. If none → 'No flights available for selected
 criteria.'
+
+
+US1.2 – Search for a Round-Trip Flight
+As a traveler, I want to search for a round-trip flight by selecting departure city, destination city,
+departure date, return date, number of passengers, and travel class so that I can view both
+departure and return flights.
+Acceptance Criteria:
+• From & To: Same rules as US1.1 (mandatory, not same, errors).
+• Departure Date: Same rules as US1.1 (mandatory, not in past).
+• Return Date: Visible if 'One Way' unchecked. Calendar/manual entry in dd-mm-yyyy.
+Mandatory. Error if blank → 'Please select a return date.' If ≤ departure date → 'Return
+date must be after departure date.'
+• Passengers & Travel Class: Same as US1.1.
+• Search Button: Disabled until mandatory fields valid. On click, validate inputs (including
+return date). Errors shown under invalid fields. If valid → load results.
+• Results: Show Departure Flights + Return Flights separately. Each includes airline, flight
+number, times, duration, price. Sorted by departure time. If none in a section → 'No flights
+available for selected criteria.'
+
+
+US1.3 – Navigate Back to Home Page
+As a traveler, I want to click the 'Back to Home Page' button so that I can return to the main landing
+page of the site.
+Acceptance Criteria:
+• Button 'Back to Home Page' appears under search form.
+• On click → redirect to homepage.
+• Homepage loads without errors.
+• Previously entered form data cleared.
