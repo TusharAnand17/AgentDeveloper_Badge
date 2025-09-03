@@ -1,4 +1,4 @@
-US2.1 – View Search Results (Generic)
+US001 – View Search Results (Generic)
 As a traveler, I want to view a list of available flights after searching so that I can evaluate and
 select the best option.
 Acceptance Criteria:
@@ -10,7 +10,7 @@ times, duration, price in USD.
 • If no flights → 'No flights available for selected criteria.'
 
 
-US2.2 – Flight Data Accuracy
+US002 – Flight Data Accuracy
 As a traveler, I want the displayed flight information to be accurate and consistent so that I can trust
 the system’s search results.
 Acceptance Criteria:
