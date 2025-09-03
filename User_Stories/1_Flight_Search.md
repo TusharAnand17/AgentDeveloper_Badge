@@ -1,4 +1,4 @@
-US1.1 – Search for a One-Way Flight
+US001 – Search for a One-Way Flight
 As a traveler, I want to search for a one-way flight by selecting departure city, destination city,
 departure date, number of passengers, and travel class so that I can view available flight options for
 a single journey.
@@ -25,7 +25,7 @@ duration, price (USD). Sorted by departure time. If none → 'No flights availab
 criteria.'
 
 
-US1.2 – Search for a Round-Trip Flight
+US002 – Search for a Round-Trip Flight
 As a traveler, I want to search for a round-trip flight by selecting departure city, destination city,
 departure date, return date, number of passengers, and travel class so that I can view both
 departure and return flights.
@@ -43,7 +43,7 @@ number, times, duration, price. Sorted by departure time. If none in a section �
 available for selected criteria.'
 
 
-US1.3 – Navigate Back to Home Page
+US003 – Navigate Back to Home Page
 As a traveler, I want to click the 'Back to Home Page' button so that I can return to the main landing
 page of the site.
 Acceptance Criteria:
